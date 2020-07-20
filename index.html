@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://github.com/tmijs/tmi.js/releases/download/v1.5.0/tmi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+
+    <style>
+        body {
+            align-items: center;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            margin: 0;
+            overflow-x: hidden;
+            width: 100vw;
+        }
+
+        .boops {
+            display: block;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+
+        button {
+            background: #d459ab;
+            border: none;
+            border-radius: 0.5rem;
+            color: white;
+            display: block;
+            font-size: 2rem;
+            font-weight: 900;
+            padding: 0.25rem 1rem;
+            position: relative;
+            z-index: 10;
+        }
+    </style>
+    <title>Drop Game</title>
+</head>
+
+<body>
+    <button id="boop">CLICK TO BOOP</button>
+
+    <canvas class="boops"></canvas>
+    <!-- <h1>Hello world - Message(s)</h1>
+
+    <ul id="messages">
+
+    </ul> -->
+
+    <script src="secret.js"></script>
+    <script src="app.js"></script>
+    <!-- <script src="ma2d.js"></script> -->
+</body>
+
+</html>
